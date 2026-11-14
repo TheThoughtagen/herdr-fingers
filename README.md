@@ -4,6 +4,10 @@ Keyboard hints for copying paths, URLs, and identifiers from [Herdr](https://her
 terminal panes. Inspired by tmux-fingers. Python standard library only; no runtime
 packages, network calls, or automatic pasting.
 
+![Herdr Fingers demo](assets/fingers-demo.gif)
+
+*(Full-resolution video: [assets/fingers-demo.mp4](assets/fingers-demo.mp4). To re-record, see [demo/README.md](demo/README.md).)*
+
 ## Requirements
 
 - Herdr 0.9 or newer
@@ -34,6 +38,8 @@ herdr server reload-config
 ```
 
 ## Use
+
+![Hint overlay](assets/fingers-overlay.png)
 
 1. Focus a pane and press **Alt+g**.
 2. Type the letter label over a match to copy it immediately. No Enter needed.
@@ -104,6 +110,9 @@ make check
 ```
 
 `make check` runs unit tests, Ruff lint, and bytecode compilation.
+
+The demo GIF and video in `assets/` are recorded with VHS; see
+[demo/README.md](demo/README.md) to regenerate them.
 
 ## Remove
 
